@@ -9,5 +9,5 @@ EXPOSE 8080
 
 WORKDIR /aprox-launcher-min
 
-CMD ["bin/aprox.sh"]
+CMD ["bin/aprox.sh", "-c", "/aprox-launcher-easyprox/etc/aprox/main.conf"]
 
